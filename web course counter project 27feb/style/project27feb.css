@@ -1,0 +1,54 @@
+ /* css not writen nicely and effeciently */
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    margin-top: 40vh;
+    /* border: 1px solid blue; */
+ } 
+
+button{
+    width: 100px;
+    height: 30px;
+}
+.heading{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero{
+    gap: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#number{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+main{
+    margin-left: 30vw;
+    border: 1px solid black;
+    height: 150px;
+    width: 500px;
+    background-color: rgb(245, 228, 228);
+}

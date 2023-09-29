@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+/* user interface css */
+
+.navbar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    position: static;
+}
+
+.right{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+}
+
+.right a{
+    font-size: 25px;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.right a:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    height: 600px;
+    align-items: center;
+}
+
+.leftcontent{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 0px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumebut{
+    display: flex;
+    
+}
+
+.medium{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.big{
+    font-size: 60px;
+    padding-bottom: 10px;
+    width: 550px;
+}
+
+.big::selection{
+   background-color:red; 
+}
+
+.small{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.tiny{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.logos{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 30px;
+}
+
+.logos a{
+    color: white;
+}
+
+.outer{
+    background-image: url(https://img.freepik.com/premium-photo/young-man_52137-30180.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(246, 236, 236);
+}
+
+/* about interface css */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 150px;
+    color: white;
+    background-color: black;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin:20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* project interface */
+
+.headingproject{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap:10px;
+    row-gap: 80px;
+    justify-content: space-evenly;
+}
+
+.box{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   gap: 30px;
+    border: 1px solid white;
+    margin-left: 50px;
+    background-color: rgb(26, 25, 25);  
+}
+
+.viewbut{
+    width: 100%;
+    height: 35px;
+    background-color: yellow;
+    font-size: 20px;
+    border: none;
+}
+
+.viewbut a{
+    text-decoration: none;
+    color: black;
+}
+
+.viewbut:hover{
+    cursor: pointer;
+}
+
+.prodes{
+    padding-left: 20px;
+}
+
+.blk{
+    background-color: black;
+    color: white;
+}
+
+/* skills user interface */
+
+.skills{
+    background-color: black;
+    margin-top: 90px;
+    width: 100%;
+    color: white;
+}
+
+.skillsname{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+
+.skillsdesandimg{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.skillimg{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillimg img{
+    width: 600px;
+    height: 500px;
+}
+
+.skilldes{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.skilldes p{
+    padding-bottom: 30px;
+}
+
+.box h3{
+    padding-top: 20px;
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+}
+
+.more h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.lnsk{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.lnsk a{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.belbut{
+    display: flex;
+    width: 600px;
+
+    justify-content: space-evenly;
+}
+
+.belbut button{
+    margin-top: 70px;
+    height: 30px;
+    width: 140px;
+    border-radius: 8px;
+    font-size: 20px;
+    border:none
+}
+
+.belbut button:hover{
+    cursor: pointer;
+}

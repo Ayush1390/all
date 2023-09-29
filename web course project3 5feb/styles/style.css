@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.cont a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cont a:hover{
+    text-decoration: underline;
+}
+.but{
+    margin-right: 30px;
+}
+.cont a img{
+    width: 100px;
+    height: 25px;
+    margin-left: 30px;
+    
+}
+.but button{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(171, 105, 233);
+    border: none;
+    border-radius: 5px;
+}
+.but button a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://wallpapercave.com/wp/wp2901668.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+    gap: 20px;
+    
+}
+.content h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.below-but button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(171, 105, 233);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+.below-but a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.content h1 span{
+    margin-left: 15px;
+}

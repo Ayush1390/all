@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    /* display: flex; */
+    background-color: rgb(242, 233, 222);
+}
+.navbar ul{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 60px;
+    /* margin-left: 10px; */
+    /* justify-content: space-evenly; */
+}
+.navbar{
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.navbar ul li{
+    /* padding-left: 70px; */
+    /* display: flex; */
+    gap: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    /* gap: 30px; */
+    /* justify-content: space-evenly; */
+    /* border: 1px solid black; */
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.navbar img:hover{
+    cursor: pointer;
+    
+}
+
+
+.navbar img{
+    display: flex;
+    margin-left: 40px;
+    height: 30px;
+    width:120px
+}
+section{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-left-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.dark{
+    font-weight: bolder;
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.light{
+    padding-top: 20px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.upper{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* border: 1px solid black; */
+}
+.upper img{
+    display: flex;
+    /* margin-left: 30px; */
+    
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+    
+}
+.lower{
+    border-radius: 10px;
+    height: 250px;
+    width: 500px;
+}
+.first{
+    padding:20px;
+    padding-bottom: 0px;
+}
+.second{
+    margin-right: 10px;
+    
+}
+
+.main-left-section button{
+    height: 30px;
+    width: 90px;
+    margin-top: 30px;
+    background-color: seagreen;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+.main-left-section button a:hover{
+    cursor: pointer;
+    
+    text-decoration: underline;
+}
+

@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+/* user interface css */
+
+.navbar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    position: static;
+}
+
+.right{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+}
+
+.right a{
+    font-size: 25px;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.right a:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    height: 600px;
+    align-items: center;
+}
+
+.leftcontent{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 0px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumebut{
+    display: flex;
+    
+}
+
+.medium{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.big{
+    font-size: 60px;
+    padding-bottom: 10px;
+    width: 550px;
+}
+
+.big::selection{
+   background-color:red; 
+}
+
+.small{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.tiny{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.logos{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 30px;
+}
+
+.logos a{
+    color: white;
+}
+
+.outer{
+    /* background-image: url(https://img.freepik.com/premium-photo/young-man_52137-30180.jpg); */
+    background-image: url(https://images.unsplash.com/photo-1506138979136-a74b54936c90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuJTIwb24lMjBib2F0fGVufDB8fDB8fHww&w=1000&q=80);
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwz07a-qLJWNFUNfxAgqcfyTblX99oMeTxYw&usqp=CAU); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(246, 236, 236);
+}
+
+/* about interface css */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* background-color: black; */
+    background-color: rgb(37, 42, 65);
+}
+
+.flx{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.imag{
+    display: flex;
+    width: 40%;
+}
+
+.cont{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin:20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* project interface */
+
+.headingproject{
+    /* background-color: rgb(37, 42, 65); */
+    /* background-color: rgb(24, 19, 19); */
+    color: black;
+    display: flex;
+    margin-top: 10px;
+    /* margin-bottom: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.container{
+    /* background-color: black; */
+    /* background-color: rgb(37, 42, 65); */
+    background-color: white;
+    color: rgb(40, 33, 33);
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap:10px;
+    row-gap: 80px;
+    justify-content: space-evenly;
+}
+
+.box{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid black;
+   gap: 30px;
+    margin-left: 50px;
+    background-color: rgb(239, 239, 239);
+    /* box-shadow: black; */
+    border-radius: 4px;
+}
+
+.viewbut{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(79, 100, 205);
+    font-size: 20px;
+    border: none;
+}
+
+.viewbut a{
+    text-decoration: none;
+    color: rgb(243, 233, 233);
+}
+
+.viewbut:hover{
+    cursor: pointer;
+}
+
+.prodes{
+    padding-left: 20px;
+}
+
+.blk{
+    /* background-color: black; */
+    color: white;
+}
+
+/* skills user interface */
+
+.skills{
+    /* background-color: black; */
+    margin-top: 90px;
+    width: 100%;
+    color: rgb(18, 16, 16);
+}
+
+.skillsname{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+
+.skillsdesandimg{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.skillimg{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillimg img{
+    width: 600px;
+    height: 500px;
+}
+
+.skilldes{
+    width: 50%;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.skilldes li{
+    padding-bottom: 30px;
+    list-style: disc;
+}
+
+.box h3{
+    padding-top: 20px;
+}
+
+.more{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+}
+
+.more h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.lnsk{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.lnsk a{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.belbut{
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+.belbut button{
+    margin-top: 70px;
+    height: 30px;
+    width: 140px;
+    border-radius: 8px;
+    font-size: 20px;
+    border:1px solid black
+}
+
+.belbut button:hover{
+    cursor: pointer;
+}
